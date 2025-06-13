@@ -1,4 +1,5 @@
-FROM python:3.8.0-slim
+FROM public.ecr.aws/docker/library/python:3.8.20-slim
+# FROM python:3.8.0-slim
 
 WORKDIR /app
 COPY /analytics/ /app
