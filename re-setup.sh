@@ -17,7 +17,7 @@ echo Step 5
 pip install --upgrade pip setuptools wheel
 echo Step 6
 cd analytics/
-pip install -r requirements.txt
+cd
 export DB_USERNAME=myuser; export DB_PASSWORD=mypassword; export DB_PORT=5433 ; export DB_NAME=mydatabase ; export POSTGRES_PASSWORD=mypassword
 echo Step 7
 apt install docker-ce docker-ce-cli containerd.io -y
