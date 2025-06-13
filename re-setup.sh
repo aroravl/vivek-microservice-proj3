@@ -26,3 +26,8 @@ aws ecr get-login-password --region us-east-1 | docker login --username AWS --pa
 
 kubectl get pods
 kubectl exec -it postgresql-77b49c94cd-gb566 -- bash
+
+
+# ssh-keygen -t ed25519 -C "vivek.arora1@natwest.comcom"
+# eval "$(ssh-agent -s)"
+# ssh-add ~/.ssh/id_ed
